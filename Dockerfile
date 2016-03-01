@@ -10,7 +10,7 @@ run echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true 
 	&& rm -r /usr/lib/jvm/java-8-oracle/lib/missioncontrol \
 	&& rm -r /usr/lib/jvm/java-8-oracle/lib/visualvm \
 	&& rm /usr/lib/jvm/java-8-oracle/src.zip \
-	&& rm /usr/lib/jvm/java-8-oracle/javafx-src.zip
+	&& rm /usr/lib/jvm/java-8-oracle/javafx-src.zip \
 	&& apt-get clean
 
 env JAVA_HOME /usr/lib/jvm/java-8-oracle
